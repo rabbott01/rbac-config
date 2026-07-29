@@ -10,6 +10,7 @@ import hbi
 @rbac.add_v1_based_permission(app:'advisor', resource:'weekly_email', verb:'read', v2_perm:'advisor_weekly_email_view');
 
 @rbac.add_v1_based_permission(app:'advisor', resource:'weekly_report', verb:'read', v2_perm:'advisor_weekly_report_view');
+@rbac.add_v1_based_permission(app:'advisor', resource:'weekly_report', verb:'write', v2_perm:'advisor_weekly_report_edit');
 
 @rbac.add_v1_based_permission(app:'advisor', resource:'weekly_report_auto_subscribe', verb:'read', v2_perm:'advisor_weekly_report_auto_subscribe_view');
 @rbac.add_v1_based_permission(app:'advisor', resource:'weekly_report_auto_subscribe', verb:'write', v2_perm:'advisor_weekly_report_auto_subscribe_edit');
